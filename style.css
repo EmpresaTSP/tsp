@@ -49,7 +49,7 @@ html {
 }
 
 body {
-  font: 400 1rem var(--body-font);
+  font: 400 1.27rem var(--body-font);
   color: var(--text-color);
   background: var(--body-color);
   -webkit-font-smoothing: antialiased;
@@ -64,12 +64,12 @@ body {
 .button {
   background-color: var(--base-color);
   color: var(--text-color-light);
-  height: 3.5rem;
+  height: 3.46rem;
   display: inline-flex;
   align-items: center;
   padding: 0 2rem;
-  border-radius: 0.25rem;
-  font: 500 1rem var(--body-font);
+  border-radius: 0.45rem;
+  font: 500 1.3rem var(--body-font);
   transition: background 0.3s;
 }
 
@@ -555,7 +555,7 @@ footer .social a:hover {
   }
 
   .button {
-    height: 3.125rem;
+    height: 4.125rem;
   }
 
   /* navigation */
@@ -571,7 +571,7 @@ footer .social a:hover {
   }
 
   nav .menu ul li a.title {
-    font: 400 1rem var(--body-font);
+    font: 400 1.25rem var(--body-font);
     -webkit-font-smoothing: antialiased;
   }
 
@@ -657,7 +657,7 @@ footer .social a:hover {
 /* large devices: 992 > */
 @media (min-width: 992px) {
   :root {
-    --title-font-size: 2.25rem;
+    --title-font-size: 2.43rem;
     --subtitle-font-size: 1.125rem;
   }
 }
